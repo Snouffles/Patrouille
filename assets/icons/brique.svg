@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 21.06px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <image id="Calque_1" data-name="Calque 1" x="229" y="235" width="539" height="461" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAAuCAYAAABjwOorAAAC6klEQVRoge2aS2sTURSAv5l2RG3j2EasWm2wSqkg6kaKW0FBXbi0bvQH+Cf8B4oLpQsR0Z1LCwXFBwqlS+tjUd0ojUH7wPSZ2KQduXoGhiGTTDN3IGPnI8NMkjvncc+9d849iYEGuk/3MPTgHGvzZUqFZcBQryvAPWDA2XDmTMuks9+msrjG+PAY5Z+rOlQH0qZDSKmwQnFyjsxRm13HujFMg/WVyhFngyHTMu935DLl9k6LmZd5Pt6cYHV6OR5vPGiJmJd953Pkhgewj2cxLIPqUoWZ13m+Pp5i6fMv3eoC0e7YXwyD3sv92INdFMa+UZycjUXNliRsxM4Ch4G4Zvw64ADtddpYYu8oMK9D6R5gRRS3wjEcxuiwEbsGPAQmgBtqjQBMnxwn4NrF8bVDIqVWlCfAfuCCfL/D1w6JWBV4BWhbVk1RNKpLoI9PwG+dAs0Qbbzt4llF/8nVKjusY3GjvcNaxTH/fIpMGrGkkQ7FpBHWMcd31o2jO2pubmYDe4FKjTYLQFauO+TcpynaKpOYlaxiG3BAbOgIca8fQ2zKex/2X1ooF4x63MITsRHgFFCsMSTc/G5BerYibS8BL4BxoCtC1FQvL0reaMtnStd14CBwFyhLRBtFrAd4HsEWLoqzV6MIacAzT+K8aZqdJ+59WmomAbgONWXjll/uE0dUx+LaxkQmqmNxPbAjk0YsaaRDMYD/bii6kdrQaEuQjqZGRbOOGb5zHLi2NT2qHoXIpn8Ak8BaDNm42rq8Fx26ZL5plzp4UbYutSJQAgaBE8AHybTLsu9R+6fdAfu4MKj7dgInxY63UgVWdhVEd5/kpGGHfS8wFdaAO9ITh5p0oB5ZkT2iU+hmK8FxPPciZfFBpA/opJE6ljRSx5JGK1SCY8k76/1KX6udtcn7GlH1yHTrhm0hdw3rUTr6TAtXfG/XM7xRz2+XnnkKTAM56Vn1mQ7UVFBR+w5k5K8X6n0t3OKpOlSF+F2gAcAfmMlKTUqnuzEAAAAASUVORK5CYII="/>
+  <path class="cls-1" d="M499.5,241C648.341,241,769,356.734,769,499.5S648.341,758,499.5,758,230,642.266,230,499.5,350.659,241,499.5,241Z"/>
+</svg>
