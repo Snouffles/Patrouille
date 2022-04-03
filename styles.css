@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    overflow-x: hidden;
+}
+a{
+   text-decoration: none;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+    height: 100px;
+}
+header .logo{
+    height: 90px;
+    margin: 0 0 0 10px;
+}
+
+header .callUs{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: 0 0 0 30vw;
+}
+
+header .icon--mobile{
+    position: absolute;
+    margin: -7px 0 0 -2px;
+}
+header .callUs p{
+    margin: 0 0 0 10px;
+}
+
+
+header .nav{
+   
+    display: flex;
+    margin: 0 10px 0 0;
+}
+header .icon--menu{
+    height: 22px;
+}
+
+header .icon--menu:hover{
+    cursor: pointer;
+}
+
+header nav{
+    display: none;
+    position: absolute;
+    box-shadow: 1px 1px 6px black;
+    background-color: aqua;
+    border: 1px solid red;
+    top: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 0 0;
+    width: 120px;
+    
+}
+
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    margin: 10px 0 0 -30px;
+}
+
+
+.container__1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+}
+.container__1 h1{
+    color: #FEC804;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 26px;
+    padding: 15px 0;
+    
+}
+
+.container__1 > img{
+    height: 260px;
+}
+
+
+
+.container__1 p{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+}
+
+
+.container__1 .contacts{
+    background:#0041FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    
+}
+
+.btn--contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px
+}
+
+.btn--contacts button{
+    background: #FEC804;
+    height: 66px;
+    width: 300px;
+    border-radius: 60px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 23px;
+    font-weight: 800;
+}
+.btn--contacts button:hover{
+    cursor: pointer;
+}
+.container__1 .instagram, .container__1 .facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.container__1 .icon-instagram, .container__1 .icon-facebook{
+    height: 30px;
+    position: absolute;
+}
