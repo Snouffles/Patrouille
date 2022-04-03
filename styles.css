@@ -330,11 +330,5 @@ header nav ul li{
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 
-@-moz-document url-prefix() {
 
-    header .icon--mobile{
-        position: absolute;
-        margin: -7px 0 0 -2px!important;
-    }
 
-} 
