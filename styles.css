@@ -28,17 +28,18 @@ header .callUs{
     margin: 0 0 0 30vw;
 }
 
+
 header .icon--mobile{
     position: absolute;
-    margin: -7px 0 0 -2px;
+    margin: -4px 0 0 -1px;
 }
+
 header .callUs p{
     margin: 0 0 0 10px;
 }
 
 
 header .nav{
-   
     display: flex;
     margin: 0 10px 0 0;
 }
@@ -78,7 +79,7 @@ header nav ul li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid;
+    overflow: hidden;
 }
 .container__1 h1{
     color: #FEC804;
@@ -93,7 +94,7 @@ header nav ul li{
 }
 
 .container__1 > img{
-    height: 260px;
+    height: 200px;
 }
 
 
@@ -104,6 +105,7 @@ header nav ul li{
     font-style: normal;
     font-weight: 800;
     font-size: 17px;
+    padding: 0 0 10px 0;
 }
 
 
@@ -132,20 +134,207 @@ header nav ul li{
     border: none;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     font-size: 23px;
     font-weight: 800;
+}
+.btn--contacts button img{
+    margin: 0 10px 0 0;
 }
 .btn--contacts button:hover{
     cursor: pointer;
 }
-.container__1 .instagram, .container__1 .facebook{
+.container__1 .instagram, .container__1 .facebook, .container__1 .mail{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
 }
-.container__1 .icon-instagram, .container__1 .icon-facebook{
+.container__1 .icon-instagram, .container__1 .icon-facebook, .container__1 .icon-mail{
     height: 30px;
     position: absolute;
 }
+.carrusel{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100vw;
+    height: 300px;  
+    
+}
+.carrusel .carrusel--1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    order: 2;
+    height: 70%;
+    overflow: hidden;
+}
+.carrusel .carrusel__arrows, .carrusel .carrusel__number{
+    position: absolute;
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+}
+.carrusel .carrusel__number{
+    margin: -60px 0 0 0;
+}
+.carrusel__number span{
+    font-size: 60px;
+    margin: 0 40px 0 0;
+}
+.carrusel .carrusel__arrows{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+.carrusel .carrusel__arrows span{
+    display: inline-block;
+    border-left: 1px solid #fff;
+    height: 15px;
+    margin-top: 5px;
+}
+.carrusel .icon--arrow{
+    height: 15px;
+    object-fit: contain;
+    padding: 10px 0;
+   
+}
+.carrusel__arrows p{
+    width: 220px;
+    margin: 0 10px;
+}
+
+.icon--arrow__right{
+    transform: rotate(180deg);
+}
+
+.slide1{
+    display: flex;
+}
+.slide2{
+    display: none;
+}
+.slide3{
+    display: none;
+}
+.slide4{
+    display: none;
+}
+
+.carrusel--1 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.carrusel--2{
+    width: 100vw;
+    height: 30%;
+    display: flex;
+    overflow: hidden;
+    background-color: #0041FF;
+
+}
+.carrusel--2 .text, .carrusel--2 .img {
+    width: 50%;
+}
+.carrusel--2 .text{
+    
+    background-color: #0041FF;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px!important;
+    text-overflow:initial;
+    margin: 10px 0 0 5px;
+   
+}
+
+.carrusel--2 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;    
+}
+.carrusel--2 .img {
+    overflow: hidden;
+    width: 50%;
+}
+.carrusel--2 .img1{
+    background-color: purple;
+    width: 50%;
+    height: 100%;
+}
+.carrusel--2 .img2{
+    background-color: OLIVE;
+    width: 50%;
+    height: 100%;
+}
+.carrusel--2 .img4{
+    background-color: orange;
+    width: 50%;
+    height: 100vw;
+}
+.carrusel--1 .img1{
+    background-color: orange;
+    width: 100vw;
+    height: 400px;
+}
+.carrusel--1 .img2{
+    background-color: purple;
+    width: 100vw;
+    height:400px;
+}
+.carrusel--1 .img4{
+    background-color: olive;
+    width:100vw;
+    height:400px;
+}
+.carrusel--1 .img img{
+    
+    width: 100%;
+    height: 100%;
+    
+}
+
+.quiSommesNous{
+    background: #000;
+    height: 400px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.quiSommesNous h2, .quiSommesNous p, .rencontrez p{
+    width: 90%;
+}
+.rencontrez{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rencontrez h3{
+    color: #FEC804;
+    margin: 15px 0;
+}
+
+.profilPic{
+ 
+    height: 100px;
+    width: 98px;
+    object-fit: cover;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+@-moz-document url-prefix() {
+
+    header .icon--mobile{
+        position: absolute;
+        margin: -7px 0 0 -2px!important;
+    }
+
+} 
